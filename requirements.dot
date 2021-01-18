@@ -1,0 +1,17 @@
+digraph PhiloDilemma {
+  label = "Robert de Bock" ;
+  overlap=false
+  {
+    "revealmd" [fillcolor=yellow style=filled penwidth=3]
+    "robertdebock.bootstrap" [fillcolor=green style=filled]
+    "robertdebock.epel" [fillcolor=green style=filled]
+    "robertdebock.git" [fillcolor=green style=filled]
+    "robertdebock.npm" [fillcolor=green style=filled]
+    "robertdebock.service" [fillcolor=green style=filled]
+  }
+  "revealmd" -> "robertdebock.bootstrap"
+  "revealmd" -> "robertdebock.epel"
+  "revealmd" -> "robertdebock.git"
+  "revealmd" -> "robertdebock.npm"
+  "revealmd" -> "robertdebock.service"
+}
